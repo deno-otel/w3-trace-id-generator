@@ -7,16 +7,11 @@
   "fmt": {
     "include": ["*.ts"]
   },
-  "imports": {
-    "long": "./deps.ts",
-    "protobufjs/": "./src/protobufjs/"
-  },
   "lint": {
     "rules": {
       "tags": ["recommended"],
       "exclude": []
     },
-
     "include": ["*.ts"]
   }
 }
